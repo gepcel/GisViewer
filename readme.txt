@@ -4,7 +4,7 @@ version: 0.0.0.1
 
 ## Why GisViewer?
 
-1. Occasionally, I want to view an ESRI shapefile before I add it into ArcMap.
+1. Occasionally, I want to view an ESRI shapefile before I add it into ArcMap. No better ways than view it via a Lister plugin in Total Commander.
 2. There's a plugin [GisLister](https://totalcmd.net/plugring/GisLister.html), without x64 version.
 
 ## What can GisViewer do?
@@ -12,7 +12,7 @@ version: 0.0.0.1
 1. Using F3 or Ctrl + Q in Total Commander to view ESRI shapefiles.
 2. For a shape file, there might be some or all of the following files with the same name and different extension: *.shp, *.shx, *.dbf, *.prj, *sbn, *.sbx. View any of these files, GisViewer will treat them as the same *shapefile*. Saves time to cautiously picking of the `*.shp` file.
 
-    > So if there's already other plugins to view files (like *.dfb), you might want to pay attension to the orders.
+    > So if there's already other plugins to view files (like *.dff), you might want to pay attension to the orders.
     > To avoid confusing with normal xml file, GisViewer doesn't accept *.shp.xml file for now.
 
 3. GisViewer can view the feature geometry in the `Map` tab.
@@ -27,6 +27,6 @@ It is programed in C# with library [DotSpatial](https://github.com/DotSpatial/Do
 
 ## And
 
-I'm no expert on programming. Welcome to any feedback.
+I'm no expert on programming. Welcome to any feedbacks.
 
 email: wayangel@outlook.com
