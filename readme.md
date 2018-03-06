@@ -4,20 +4,22 @@ version: 0.0.0.1
 
 ## Why GisViewer?
 
-1. Occasionally, I want to view an ESRI shapefile before I add it into ArcMap. No better ways than view it via a Lister plugin in Total Commander.
-2. There's a plugin [GisLister](https://totalcmd.net/plugring/GisLister.html), without x64 version.
+1. I often need to view an ESRI shapefile before I add it to ArcMap. No better ways than view it via a Lister plugin in Total Commander.
+2. Need x64 support. There existed an plugin: [GisLister](https://totalcmd.net/plugring/GisLister.html), without x64 versions.
 
 ## What can GisViewer do?
 
-1. Using F3 or Ctrl + Q in Total Commander to view ESRI shapefiles.
-2. For a shape file, there might be some or all of the following files with the same name and different extension: *.shp, *.shx, *.dbf, *.prj, *sbn, *.sbx. View any of these files, GisViewer will treat them as the same *shapefile*. Saves time to cautiously picking of the `*.shp` file.
+1. View ESRI shapefiles (Ctrl+Q, or F3). Only viewing, non and no plan of any editing functions.
+2. For a shape file, there might be some or all of the following files with the same name and different extension: *.shp, *.shx, *.dbf, *.prj, *sbn, *.sbx. View any of these files, GisViewer will treat them as the same *shapefile*. No need to cautiously pick the exact `*.shp` file.
 
-    > So if there's already other plugins to view files (like *.dff), you might want to pay attension to the orders.
-    > To avoid confusing with normal xml file, GisViewer doesn't accept *.shp.xml file for now.
+    > So if there's already other plugins to view files (like *.dbf), you might want to pay attension to the plugin orders.
+    > *.dbf files which is not part of a shapefile will be ignored.
+    > To avoid confusing with normal xml file, GisViewer doesn't accept *.shp.xml file for now. (Planning for the next version)
 
-3. GisViewer can view the feature geometry in the `Map` tab.
-4. GisViewer can view the coordinate system projection information at the bottom of `Map` tab if there's any.
-5. Gisviewer can view the attribute data in the `Data` tab.
+3. View the feature geometry in the `Map` tab.
+4. View the coordinate system projection information at the bottom of `Map` tab if there is any.
+4. GisViewer can let you pick the coordinate system if there is not any.
+5. View the attribute data in the `Data` tab.
 
 ## How GisViewer works?
 
