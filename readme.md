@@ -1,11 +1,11 @@
 # GisViewer: A lister plugin for Total Commander
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [GisViewer: A lister plugin for Total Commander](#gisviewer-a-lister-plugin-for-total-commander)
 - [What's this and Why?](#whats-this-and-why)
 - [Features](#features)
 - [How to use?](#how-to-use)
 - [Installation](#installation)
+- [Change log](#change-log)
 - [Contact](#contact)
 
 <!-- /TOC -->
