@@ -1,34 +1,43 @@
-# GisViewer Lister plugin for Total Commander
+[toc]
 
-version: 0.0.0.1
+# What's this and Why?
 
-## Why GisViewer?
+[GisViewer](https://github.com/gepcel/GisViewer) is a lister plugin for [Total Commander](https://www.ghisler.com/) to view [shapefiles](https://en.wikipedia.org/wiki/Shapefile).
 
-1. I often need to view an ESRI shapefile before I add it to ArcMap. No better ways than view it via a Lister plugin in Total Commander.
-2. Need x64 support. There existed an plugin: [GisLister](https://totalcmd.net/plugring/GisLister.html), without x64 versions.
+I often need to view an ESRI shapefile before I add it to ArcMap. No better ways than view it via a Lister plugin in Total Commander.
 
-## What can GisViewer do?
+There is an plugin: [GisLister](https://totalcmd.net/plugring/GisLister.html), without x64 versions.
 
-1. View ESRI shapefiles (Ctrl+Q, or F3). Only viewing, non and no plan of any editing functions.
-2. For a shape file, there might be some or all of the following files with the same name and different extension: *.shp, *.shx, *.dbf, *.prj, *sbn, *.sbx. View any of these files, GisViewer will treat them as the same *shapefile*. No need to cautiously pick the exact `*.shp` file.
+# Features
 
-    > So if there's already other plugins to view files (like *.dbf), you might want to pay attension to the plugin orders.
-    > *.dbf files which is not part of a shapefile will be ignored.
-    > To avoid confusing with normal xml file, GisViewer doesn't accept *.shp.xml file for now. (Planning for the next version)
-
-3. View the feature geometry in the `Map` tab.
-4. View the coordinate system projection information at the bottom of `Map` tab if there is any.
-4. GisViewer can let you pick the coordinate system if there is not any.
+1. Accept a collection of files as a single shapefile. As the [wikipedia](https://en.wikipedia.org/wiki/Shapefile), a shapefile is not a single file, but a collection of files with a common filename prefix, and some or all of the following extensions: `.shp, .shx, .dbf, .prj, .sbn, .sbx, .shp.xml`. You don't need to carefully select out the specific `*.shp` file to view.
+2. View the feature geometry in the `Map` tab, with the following tools:
+    * Pan to move
+    * Select to ZoomIn, ZoomOut
+    * Mouse wheel to zoom in and out
+    * Identify features.
+    * Select tools (**Not implemented yet**)
+3. Show the projection at the bottom of `Map` tab if there's any.
+4. Set `WGS84` as the default coordinate system if there not any, for quick view. Can select and change to others after (**Not implemented yet**).
 5. View the attribute data in the `Data` tab.
+6. x64 supported.
 
-## How GisViewer works?
+# How to use?
 
-It is programed in C# with library [DotSpatial](https://github.com/DotSpatial/DotSpatial).
+After installed, move the cursor to a shapefile (any file of a collection), press `Ctrl+Q` or `F3`. That's it.
 
-"GisViewer.wlx" and "GisViewer.wlx64" are the plugin file for x32 and x64 Total Commander. All the folders and files with name starts with "DotSpatial.*" are for [DotSpatial](https://github.com/DotSpatial/DotSpatial).
+# Installation
 
-## And
+GisViewer is written in C#, with and wrapped by [.Net Interface 1.4](https://sourceforge.net/projects/tcdotnetinterface/) into a Total Commander lister plugin. So you will need to install the interface and .net frameworks. These only needs to be installed once, skip if you've already have these.
 
-I'm no expert on programming. Welcome to any feedbacks.
+1. Install .Net Framework(>=4.5.2), refer to [.Net Official Site](https://www.microsoft.com/net)
+2. Install the interface. You can download and run from [this repository](), or from the [official website](https://sourceforge.net/projects/tcdotnetinterface/)
+3. Download and install the GisViewer itself. Follow [TotalcmdWiki](http://www.ghisler.ch/wiki/index.php?title=Plugin#Plugin_installation) if you don't know how.
 
-email: wayangel@outlook.com
+# Contact
+
+This plugin is published at [totalcmd.net](http://totalcmd.net/plugring/GisViewer.html), you can also download from there. And there are many wonderful plugins, including the .Net Interface for Total Commander.
+
+For unknown reasons, I cannot post topics in ghisler.ch forum (the official forum). So I cannot share it there. If any know why or how to help, please let me know.
+
+Any problems, questions, suggestions, please file an issue.

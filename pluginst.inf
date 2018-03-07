@@ -1,5 +1,0 @@
-[plugininstall]
-description=Lister plugin for Total Commander to view ESRI Shapefile
-type=wlx
-file=GisViewer.wlx
-defaultdir=GisViewer
