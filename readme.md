@@ -1,4 +1,14 @@
-[toc]
+# GisViewer: A lister plugin for Total Commander
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [GisViewer: A lister plugin for Total Commander](#gisviewer-a-lister-plugin-for-total-commander)
+- [What's this and Why?](#whats-this-and-why)
+- [Features](#features)
+- [How to use?](#how-to-use)
+- [Installation](#installation)
+- [Contact](#contact)
+
+<!-- /TOC -->
 
 # What's this and Why?
 
@@ -31,7 +41,7 @@ After installed, move the cursor to a shapefile (any file of a collection), pres
 GisViewer is written in C#, with and wrapped by [.Net Interface 1.4](https://sourceforge.net/projects/tcdotnetinterface/) into a Total Commander lister plugin. So you will need to install the interface and .net frameworks. These only needs to be installed once, skip if you've already have these.
 
 1. Install .Net Framework(>=4.5.2), refer to [.Net Official Site](https://www.microsoft.com/net)
-2. Install the interface. You can download and run from [this repository](), or from the [official website](https://sourceforge.net/projects/tcdotnetinterface/)
+2. Install the interface. You can download and run from [this repository](https://github.com/gepcel/GisViewer/blob/master/TcPluginSetup.msi), or from the [official website](https://sourceforge.net/projects/tcdotnetinterface/)
 3. Download and install the GisViewer itself. Follow [TotalcmdWiki](http://www.ghisler.ch/wiki/index.php?title=Plugin#Plugin_installation) if you don't know how.
 
 # Contact
