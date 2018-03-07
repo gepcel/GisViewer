@@ -44,6 +44,10 @@ GisViewer is written in C#, with and wrapped by [.Net Interface 1.4](https://sou
 2. Install the interface. You can download and run from [this repository](https://github.com/gepcel/GisViewer/blob/master/TcPluginSetup.msi), or from the [official website](https://sourceforge.net/projects/tcdotnetinterface/)
 3. Download and install the GisViewer itself. Follow [TotalcmdWiki](http://www.ghisler.ch/wiki/index.php?title=Plugin#Plugin_installation) if you don't know how.
 
+# Change log
+
+[Find change logs here](https://github.com/gepcel/GisViewer/blob/master/changelog.md)
+
 # Contact
 
 This plugin is published at [totalcmd.net](http://totalcmd.net/plugring/GisViewer.html), you can also download from there. And there are many wonderful plugins, including the .Net Interface for Total Commander.
