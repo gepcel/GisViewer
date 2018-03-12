@@ -12,17 +12,15 @@
     1. Icons.
     2. Tooltips when point at the tools.
     3. When plugin first opened:
-        * Single left click to move the layer.
+        * Drag to move the layer (No need to select the Pan tool first).
         * Mouse scroll to zoom in or zoom out the layer.
-    4. Columns width of the identify attribute table.
-    5. When first startup, without first to choose a tool:
-        * Mouse scroll to zoom in and out.
-        * Click and drag to move.
-6. Keyboard shortcuts (have to click the map at least once):
+    4. Better layout of the FeatureIdentify form.
+6. Keyboard shortcuts:
     1. H for pan tool
     2. +\- for zoom in and out
     3. I for identify tool
     4. E to zoom to max extent
+    5. Esc to close (Esc to quit FeatureIdentify form if it's focused).
 # Change log
 
 ## 1.0.0.0

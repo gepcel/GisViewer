@@ -5,7 +5,7 @@
 - [Features](#features)
 - [How to use?](#how-to-use)
 - [Installation](#installation)
-- [Change log](#change-log)
+- [Changes log](#change-log)
 - [Contact](#contact)
 
 <!-- /TOC -->
@@ -46,7 +46,7 @@ GisViewer is written in C#, with and wrapped by [.Net Interface 1.4](https://sou
 
 # Change log
 
-[Find change logs here](https://github.com/gepcel/GisViewer/blob/master/changelog.md)
+[Find changes log here](https://github.com/gepcel/GisViewer/blob/master/changelog.md)
 
 # Contact
 
