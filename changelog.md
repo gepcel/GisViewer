@@ -1,5 +1,7 @@
 # What's new?
 
+## 1.0.1.0
+
 1. Two status bars to show informations:
     * The path of the shapefile
     * The x, y coordinates of of the mouse cursor.
@@ -21,6 +23,7 @@
     3. I for identify tool
     4. E to zoom to max extent
     5. Esc to close (Esc to quit FeatureIdentify form if it's focused).
+
 # Change log
 
 ## 1.0.0.0
