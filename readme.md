@@ -22,13 +22,13 @@ There is an plugin: [GisLister](https://totalcmd.net/plugring/GisLister.html), w
 
 1. Accept a collection of files as a single shapefile. As the [wikipedia](https://en.wikipedia.org/wiki/Shapefile), a shapefile is not a single file, but a collection of files with a common filename prefix, and some or all of the following extensions: `.shp, .shx, .dbf, .prj, .sbn, .sbx, .shp.xml`. You don't need to carefully select out the specific `*.shp` file to view.
 2. View the feature geometry in the `Map` tab, with the following tools:
-    * Pan to move
-    * Select to ZoomIn, ZoomOut
+    * Pan to move (Shortcut: H, the default when lister first opened)
+    * Select to ZoomIn, ZoomOut (Shortcut: +\-)
     * Mouse wheel to zoom in and out
-    * Identify features.
+    * Identify features (Shortcut: I)
+    * Zoom to Max Extent (Shortcut: E)
     * Select tools (**Not implemented yet**)
 3. Show the projection at the bottom of `Map` tab if there's any.
-4. Set `WGS84` as the default coordinate system if there not any, for quick view. Can select and change to others after (**Not implemented yet**).
 5. View the attribute data in the `Data` tab.
 6. x64 supported.
 
