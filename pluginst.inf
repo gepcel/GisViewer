@@ -1,0 +1,5 @@
+[plugininstall]
+description=Lister plugin to view ESRI Shapefile
+type=wlx
+file=GisViewer.wlx
+defaultdir=GisViewer
